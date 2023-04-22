@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;700&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-family: 'Outfit', sans-serif;
+}
+section {
+    display: flex;
+    background-color: #d6e1f0;
+    flex-basis: 90%;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 2px 20px 0px rgba(0, 0, 0, 0.34);
+    height: 550px;
+}
+.card{
+    display: flex;
+    height: 360px;
+    width: 228px;
+    margin: 50px;
+    box-shadow: 2px 3px 11px 0px rgba(0, 0, 0, 0.34);
+    flex-direction: column;
+    align-items: center;
+    background-color:hsl(0, 0%, 100%) ;
+    border-radius: 10px;
+}
+.qrBox{
+    display: flex;
+    height: 58%;
+    width: 90%;
+    margin: 2px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.qrBox img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.title{
+    display: flex;
+    height: 15%;
+    width: 90%;
+    align-items: center;
+    justify-content: start;
+    margin: 3px;
+}
+.title p{
+    text-align: center;
+    font-size: 16px;
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+}
+.description{
+    display: flex;
+    height: 15%;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+}
+.description p{
+    margin: 0%;
+    font-size: 12px;
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+}
